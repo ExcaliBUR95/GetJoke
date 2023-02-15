@@ -1,0 +1,98 @@
+
+
+  
+  
+  
+  /* ChuckNorrisJokesPage.css */
+.chuck-norris-jokes-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px;
+  }
+  
+  .chuck-norris-jokes {
+    margin: 20px;
+  }
+  
+  .chuck-norris-joke {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-jokes {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px;
+  }
+  
+  .favorite-jokes-title {
+    margin-top: 0;
+  }
+  
+  .favorite-jokes-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .favorite-joke {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .favorite-joke:hover {
+    background-color: #eee;
+  }
+  
+  .favorite-jokeButton {
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: none !important; 
+    background-color: #0070f3 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    margin-left: 10px !important;
+
+  }
+  .styled-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+  width: 210px;
+
+  }
+  
+  .favorite-jokes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorite-jokes-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-jokes-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .favorite-jokes-text {
+    text-align: center;
+  }
+  
