@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GetJoke/static/css/main.5b3f5b87.css",
+    "main.js": "/GetJoke/static/js/main.31f823c1.js",
+    "index.html": "/GetJoke/index.html",
+    "main.5b3f5b87.css.map": "/GetJoke/static/css/main.5b3f5b87.css.map",
+    "main.31f823c1.js.map": "/GetJoke/static/js/main.31f823c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b3f5b87.css",
+    "static/js/main.31f823c1.js"
+  ]
+}
