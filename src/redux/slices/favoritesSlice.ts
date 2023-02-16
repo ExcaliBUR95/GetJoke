@@ -18,10 +18,8 @@ const favoritesSlice = createSlice({
         (joke) => joke.id === action.payload.id
       );
       if (existingIndex === -1) {
-        // Add the joke to the beginning of the array
         state.jokes.unshift(action.payload);
         if (state.jokes.length > 10) {
-          // If we exceed the max of 10 jokes, remove the last one
           state.jokes.pop();
         }
       }
