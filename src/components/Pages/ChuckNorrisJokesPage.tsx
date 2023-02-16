@@ -112,6 +112,9 @@ function ChuckNorrisJokesPage() {
             </button>
            
           </div>
+          <div>
+            {joke?.value}
+          </div>
           <div className="joke-list-section">
             <ChuckNorrisJoke getJoke={getJoke as () => Promise<string>} />
             <ChuckNorrisJokeList />
